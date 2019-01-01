@@ -16,3 +16,15 @@ patch:
   'npm:ms:20170412':
     - karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
         patched: '2019-01-01T18:17:42.809Z'
+  'npm:hoek:20180212':
+    - karma > log4js > loggly > request > hawk > hoek:
+        patched: '2019-01-01T19:02:55.222Z'
+    - karma > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2019-01-01T19:02:55.222Z'
+    - karma > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2019-01-01T19:02:55.222Z'
+    - karma > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-01-01T19:02:55.222Z'
+  'npm:tunnel-agent:20170305':
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2019-01-01T19:02:55.222Z'
