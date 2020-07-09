@@ -58,7 +58,7 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "lodash": "^3.3.0",
+    "lodash": "^4.17.16",
     "snyk": "^1.120.0"
   },
   "snyk": true
