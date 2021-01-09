@@ -35,7 +35,7 @@
     "gulp-util": "^3.0.1",
     "gulp-w3cjs": "^0.2.1",
     "http-server": "^0.6.1",
-    "karma": "~2.0.3",
+    "karma": "~5.0.8",
     "karma-chrome-launcher": "^0.1.7",
     "karma-cli": "0.0.4",
     "karma-jasmine": "^0.1.5",
