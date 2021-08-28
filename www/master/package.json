@@ -53,13 +53,13 @@
     "prebuild": "bower install --allow-root --config.interactive=false",
     "build": "npm install",
     "postbuild": "gulp build",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "lodash": "^3.3.0",
-    "snyk": "^1.120.0"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
