@@ -33,7 +33,7 @@
     "gulp-tag-version": "1.2.1",
     "gulp-uglify": "^1.0.2",
     "gulp-util": "^3.0.1",
-    "gulp-w3cjs": "^0.2.1",
+    "gulp-w3cjs": "^1.0.0",
     "http-server": "^0.6.1",
     "karma": "~2.0.3",
     "karma-chrome-launcher": "^0.1.7",
@@ -53,13 +53,13 @@
     "prebuild": "bower install --allow-root --config.interactive=false",
     "build": "npm install",
     "postbuild": "gulp build",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "lodash": "^3.3.0",
-    "snyk": "^1.120.0"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
