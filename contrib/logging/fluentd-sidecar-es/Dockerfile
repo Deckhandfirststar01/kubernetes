@@ -7,7 +7,7 @@
 # This configuration assumes that the cluster this pod is running in has an
 # Elasticsearch instance reachable via a service named elasticsearch-logging.
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Alex Robinson "arob@google.com"
 
 # Ensure there are enough file descriptors for running Fluentd.
