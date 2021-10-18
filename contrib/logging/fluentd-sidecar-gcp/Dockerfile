@@ -8,7 +8,7 @@
 # that has been created with a logging.write scope and that the Logging API
 # has been enabled for the project in the Google Developer Console. 
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190515
 MAINTAINER Alex Robinson "arob@google.com"
 
 # Disable prompts from apt.
