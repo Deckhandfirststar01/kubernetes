@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190515
 
 # update the package repository and install python pip
 RUN apt-get -y update && apt-get -y install python-dev python-pip
