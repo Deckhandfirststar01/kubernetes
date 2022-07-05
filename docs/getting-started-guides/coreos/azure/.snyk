@@ -1,0 +1,37 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > boom > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > sntp > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-07-05T14:53:53.177Z'
+  'npm:tunnel-agent:20170305':
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > tunnel-agent:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2022-07-05T14:53:53.177Z'
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2022-07-05T14:53:53.177Z'
