@@ -1,4 +1,4 @@
-FROM redis
+FROM redis:7-bullseye
 
 ADD run.sh /run.sh
 
