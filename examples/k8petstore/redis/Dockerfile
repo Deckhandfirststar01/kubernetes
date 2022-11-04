@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 
 # Install Redis.
 RUN \
