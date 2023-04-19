@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM ubuntu
+FROM ubuntu:22.10
 
 # Install Redis.
 RUN \
