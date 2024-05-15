@@ -1,4 +1,4 @@
-FROM redis
+FROM redis:7.2-bookworm
 
 ADD run.sh /run.sh
 
