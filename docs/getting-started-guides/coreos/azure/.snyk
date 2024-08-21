@@ -1,0 +1,98 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk >
+          hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk >
+          boom > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk >
+          sntp > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest >
+          request > hawk > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest >
+          request > hawk > boom > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest >
+          request > hawk > sntp > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > boom > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > sntp > hoek
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+  'npm:tunnel-agent:20170305':
+    - azure-cli > azure-arm-powerbiembedded > ms-rest > request > tunnel-agent:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest > request >
+          tunnel-agent
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure > ms-rest >
+          request > tunnel-agent
+    - azure-cli > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-08-21T18:00:30.549Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure-cli > azure-arm-powerbiembedded > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > tunnel-agent
